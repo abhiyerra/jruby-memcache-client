@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.version = "1.5.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Abhi Yerra", "Ikai Lan"]
-  s.date = %q{2009-04-13}
+  s.authors = ["Abhi Yerra", "Ikai Lan", "Frederic Jean", "Lennon Day-Reynolds"]
+  s.date = %q{2009-05-14}
   s.description = %q{A drop in replacement for Ruby's memcache-client.}
   s.email = %q{abhi@traytwo.com}
   s.extra_rdoc_files = [
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/abhiyerra/jruby-memcache-client}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.1}
+  s.rubygems_version = %q{1.3.2}
   s.summary = %q{A drop in replacement for Ruby's memcache-client.}
   s.test_files = [
     "spec/jruby_memcache_spec.rb"
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
-    s.specification_version = 2
+    s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
     else
